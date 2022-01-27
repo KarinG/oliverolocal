@@ -288,3 +288,6 @@ table#wf-crm-billing-items {
     flex: 0 1 calc(50% - 1em);
   }
 }
+
+/* Hotfix for D9.3 -> primary menu wrapping into rows */
+.header-nav { flex-shrink: 0 }
