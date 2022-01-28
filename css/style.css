@@ -288,6 +288,26 @@ table#wf-crm-billing-items {
     flex: 0 1 calc(50% - 1em);
   }
 }
+/* Width:auto is too wide... */
+@media (min-width: 31.25rem) {
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="color"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="date"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="datetime-local"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="email"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="file"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="month"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="number"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="password"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="search"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="tel"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="text"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="time"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="url"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout [type="week"],
+  .page-node-type-layout-page .paragraph--type--paragraph-layout textarea {
+    width: 100%;
+  }
+}
 
 /* Hotfix for D9.3 -> primary menu wrapping into rows */
 .header-nav { flex-shrink: 0 }
