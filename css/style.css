@@ -1,7 +1,7 @@
 /* Colour Definitions
 primary-color: #82c45a (civicrm green - menu)
 secondary-color: #25aae1 (drupal blue - links)
-button-color: #d50058 (pink - secondary buttons)
+button-color: #d50058 (pink - tertiary buttons)
 */
 
 /* Layout Changes */
@@ -77,8 +77,19 @@ button-color: #d50058 (pink - secondary buttons)
 [dir] .button--secondaryinmenu:active,
 [dir] .button--secondaryinmenu:hover,
 [dir] .button--secondaryinmenu {
+  background-color: #25aae1;
+  border-color: #25aae1;
+  justify-content: center;
+  color: #fff;
+  font-family:"metropolis",sans-serif;
+  min-width: 190px;
+}
+[dir] .button--tertiaryinmenu:active,
+[dir] .button--tertiaryinmenu:hover,
+[dir] .button--tertiaryinmenu {
   background-color: #d50058;
   border-color: #d50058;
+  justify-content: center;
   color: #fff;
   font-family:"metropolis",sans-serif;
   min-width: 190px;
