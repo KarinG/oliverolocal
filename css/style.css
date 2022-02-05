@@ -74,6 +74,15 @@ button-color: #d50058 (pink - secondary buttons)
   color: #fff;
   font-family:"metropolis",sans-serif;
 }
+[dir] .button--secondaryinmenu:active,
+[dir] .button--secondaryinmenu:hover,
+[dir] .button--secondaryinmenu {
+  background-color: #e41f67;
+  border-color: #e41f67;
+  color: #fff;
+  font-family:"metropolis",sans-serif;
+  min-width: 190px;
+}
 
 .node__title a:hover {
   color: #25aae1;
@@ -308,6 +317,6 @@ table#wf-crm-billing-items {
     width: 100%;
   }
 }
-
+<
 /* Hotfix for D9.3 -> primary menu wrapping into rows */
 .header-nav { flex-shrink: 0 }
