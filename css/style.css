@@ -331,3 +331,14 @@ table#wf-crm-billing-items {
 
 /* Hotfix for D9.3 -> primary menu wrapping into rows */
 .header-nav { flex-shrink: 0 }
+
++/* Webform buttons */
++.webform-options-display-buttons .form-item {
++  height: 67%;
++}
++.webform-options-display-buttons label.webform-options-display-buttons-label {
++  background-color: #7ca642;
++  border-color: #7ca642;
++  color: #fff;
++  min-width: 6em;
++}
