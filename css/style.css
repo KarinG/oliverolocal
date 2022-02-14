@@ -146,6 +146,13 @@ button-color: #d50058 (pink - tertiary buttons)
   border-left: solid 18px #25aae1;
 }
 
+/* Color for submenu triangle */
+@media (min-width: 75rem) {
+  body:not(.is-always-mobile-nav) .primary-nav__menu-🥕 {
+    border-bottom: solid 10px #002855 !important;
+  }
+}
+
 /* Block quote */
 .text-content blockquote:before {
   font-weight: bold;
