@@ -339,6 +339,10 @@ table#wf-crm-billing-items {
 /* Hotfix for D9.3 -> primary menu wrapping into rows */
 .header-nav { flex-shrink: 0 }
 
+body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
+  flex-wrap: nowrap;
+}
+
 /* Webform buttons */
 .webform-options-display-buttons .form-item {
   height: 67%;
