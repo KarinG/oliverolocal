@@ -353,3 +353,36 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   color: #fff;
   min-width: 6em;
 }
+
+/* Render menu as coloured flexboxes when placed in content region on basic pages */
+.page-node-type-basic-page .region--content .menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 2em;
+  row-gap: 2em;
+  padding: 0;
+  margin: 0;
+}
+.page-node-type-basic-page .region--content .menu li {
+  display: block;
+}
+.page-node-type-basic-page .region--content .menu li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  min-height: 150px;
+  padding: 2em;
+  text-align: center;
+  color: var(--basic-page-colour-dark);
+  background-color: var(--basic-page-colour-light);
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+}
+.page-node-type-basic-page .region--content .menu li a:hover {
+  color: var(--basic-page-colour-light);
+  background-color: var(--basic-page-colour-dark);
+}
+
