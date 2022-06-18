@@ -386,3 +386,7 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   background-color: var(--basic-page-colour-dark);
 }
 
+/* Small touch up for alignment Better Exposed Filters Apply/Search  */
+.views-exposed-form .form-actions {
+  padding-top: 0.55rem;
+}
