@@ -2,6 +2,11 @@
 From oliverolocal settings /admin/appearance/settings/oliverolocal
 */
 
+/* no drupals */
+body {
+  background-image: none;
+}
+
 /* Layout Changes */
 
 @media (min-width: 700px) {
