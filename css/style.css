@@ -578,3 +578,7 @@ ul.slick-dots {
 .ck.ck-balloon-panel {
   z-index: 1261 !important;
 }
+
+.views-label {
+    font-weight: bold;
+}
