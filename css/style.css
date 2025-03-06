@@ -299,10 +299,6 @@ table#wf-crm-billing-items {
   background-image: url(/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png);
 }
 
-/* Borrow application-pdf.png image */
-.file--application-pdf {
-    background-image: url(/core/themes/seven/images/classy/icons/application-pdf.png);
-}
 .file {
     display: inline-block;
     min-height: 16px;
