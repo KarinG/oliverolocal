@@ -578,3 +578,7 @@ ul.slick-dots {
 .views-label {
     font-weight: bold;
 }
+
+body {
+    hyphens: unset;
+}
