@@ -582,3 +582,8 @@ ul.slick-dots {
 body {
     hyphens: unset;
 }
+
+/* olivero gives div.layout-main-wrapper a z-index of 2, which prevents the recaptcha icon's hover slideout from working, making recaptcha look "stuck" */
+div.grecaptcha-badge {
+    z-index: 3;
+}
